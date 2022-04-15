@@ -62,5 +62,12 @@ echo "${#NAMES[@]}"
 
 # Replace the char a with A for all elements
 echo "${NAMES[@]//Narottam/NAROTTAM}"
+echo
 
-
+# Another way of assigning array values to variable
+ARRAY3=("Hello" "Dear" "This" "One" "Is" "HP")
+for i in "${ARRAY3[@]}"
+do
+	echo "${i}"
+done
+echo
